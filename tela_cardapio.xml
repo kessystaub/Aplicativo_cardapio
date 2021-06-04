@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cinza_claro"
+    android:padding="50dp"
+    android:paddingStart="50dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:background="@color/cinza_claro">
+
+        <ImageView
+            android:id="@+id/IDimagem"
+            android:layout_width="123dp"
+            android:layout_height="110dp"
+            android:src="@drawable/mc"></ImageView>
+
+        <TextView
+            android:id="@+id/IDNome"
+            android:textStyle="bold|italic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140dp"
+
+            android:text="Name"></TextView>
+
+        <TextView
+            android:id="@+id/IDDescricao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/IDNome"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="4dp"
+            android:text="Desc"
+            android:textStyle="bold|italic"></TextView>
+
+        <TextView
+            android:id="@+id/IDPreco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/IDDescricao"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="8dp"
+            android:text="preco"
+            android:textStyle="bold|italic"></TextView>
+
+        <TextView
+            android:id="@+id/IDgluten"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/IDPreco"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="8dp"
+            android:text="gluten"
+            android:textStyle="bold|italic"
+             />
+
+        <TextView
+            android:id="@+id/IDCalorias"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/IDgluten"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="8dp"
+            android:text="calorias"
+            android:textStyle="bold|italic"
+            />
+
+    </RelativeLayout>
+</LinearLayout>
